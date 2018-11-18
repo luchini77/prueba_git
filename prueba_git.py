@@ -3,4 +3,7 @@
 print("Pruebas en GIT")
 print()
 nombre=input("Ingresa tu nombre: ")
-print("Hola {}".format(nombre))
+print()
+edad=int(input("Ingresa tu edad: "))
+print()
+print("Hola {}, tienes {} años.".format(nombre,edad))
